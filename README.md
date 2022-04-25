@@ -12,5 +12,6 @@ Clone this repo to your own account with the green "Use this template" button. T
 
 
 ### Collaborators
-
-<name here>
+[Darius O](https://github.com/DariusO92)
+[Liesl White](https://github.com/LieslW)
+[Gina N.](https://github.com/gina305)
