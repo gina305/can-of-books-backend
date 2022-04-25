@@ -12,10 +12,9 @@ Clone this repo to your own account with the green "Use this template" button. T
 
 ### What you'll need:
 
-Your api keys
-A code editor (such as VS Code)
-Node, NPM, NVM, React & Axios installed
-Web Browser (recommend Google Chrome)
+* A code editor (such as VS Code)
+* Node, NPM, NVM, React & Axios installed
+* Web Browser (recommend Google Chrome)
 
 
 ## Collaborators
