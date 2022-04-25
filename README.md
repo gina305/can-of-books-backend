@@ -86,3 +86,10 @@ What will your team do if one person is taking over the project and not letting 
 How will you approach each other and the challenge of building an application knowing that it is impossible for two people to be at the exact same place in understanding and skill level?
 
 * Open communication, understanding strengths and weaknesses, explain it best way possible/simple terms.  
+
+Frontend:
+
+Backend:  
+
+* [Deployed Web Address](https://can-of-books-backend2022.herokuapp.com/)
+* [GitHub Repo](https://github.com/gina305/can-of-books-backend.git)
