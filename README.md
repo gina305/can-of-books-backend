@@ -10,7 +10,14 @@ Books are life-changing. They have the power to enlighten, educate, entertain, h
 
 Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
 
+### What you'll need:
 
-### Collaborators
+Your api keys
+A code editor (such as VS Code)
+Node, NPM, NVM, React & Axios installed
+Web Browser (recommend Google Chrome)
+
+
+## Collaborators
 
 <name here>
