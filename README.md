@@ -1,49 +1,97 @@
-# Start your own "Can of Books" App
+# Can of Books (Backend)  
 
-This repository has starter code to begin work on creating your own online bookshelf.
+**Authors**:
+[Darius O](https://github.com/DariusO92)  
+[Liesl White](https://github.com/LieslW)  
+[Gina N.](https://github.com/gina305)  
+**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
-## What can books do?
+## Overview  
 
 Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
 
-## Use this template
+## Getting Started
+<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 
-Clone this repo to your own account with the green "Use this template" button. Then, add any collaborators. Now you are ready to start adding features! Deploy your site to let the world know which books have had the greatest impact on you, and what's recommended. Enjoy!
-
-### What you'll need:
-
+## Architecture
+<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
 * A code editor (such as VS Code)
 * Node, NPM, NVM, React & Axios installed
 * Web Browser (recommend Google Chrome)
 
+## Change Log
+<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
-## Collaborators
+01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
-<name here>
+## Estimates
+<!-- See below -->
 
- ## Professional Pairing Practice
+## Credit and Collaborations
+<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
-### Logistical
-What hours will you be available to communicate?
+___
+
+### Logistical  
+
+What hours will you be available to communicate?  
+
+* 1-6pm or during designated class time  
+
 What platform will you use to communicate (ie. Slack, phone …)?
-  * Slack
-  
-How often will you take breaks?
-  
+
+* Slack  
+
+How often will you take breaks?  
+
+* Every hour (10 min)  
+
 What is your plan if you start to fall behind?
 
-### Cooperative
-Make a list of each parson’s strengths.
+* Get help from TA/instructor/peers when we need it  
+
+
+### Cooperative  
+
+Make a list of each person's strengths:  
+
+* Liesl: Troubleshooting, organized, adaptability
+* Darius: Adaptability, accountable,  
+* Gina: CSS  
+
 How can you best utilize these strengths in the development of your application?
+
+* Troubleshooting to fix bugs, adaptability to make new plans if something happens or we get behind, CSS for styling.  
+
 In what areas do you each want to develop greater strength?
+
+* Liesl: CSS, JS skills
+* Darius: JS/React skills, CSS
+* Gina: Troubleshooting, adaptability  
+
 Knowing that every person in your team needs to understand the code, how do you plan to approach the day-to-day development?
 
-### Conflict Resolution
+* Pair programming, someone confused go over it  
+
+### Conflict Resolution  
+
 What will your team do if one person is pulling all the weight while the other person is not contributing?
-  * Schedule a pair programming session with the person who is not contributing to help them get their part done.
-  
+
+* Contact person to do pair program session, communication  
+
 What will your team do if one person is taking over the project and not letting the other member contribute?
-  * Remind everyone that each person's opinion is valued.
-  
+
+* Contact Sheyna if communicative resources have depleted  
+
 How will you approach each other and the challenge of building an application knowing that it is impossible for two people to be at the exact same place in understanding and skill level?
-  * Find out where each person has difficulties and share knowledge to help resolve issues in understanding.
+
+* Open communication, understanding strengths and weaknesses, explain it best way possible/simple terms.  
+
+Frontend:
+
+* [Deployed Web Address](https://can-of-books301.netlify.app/)  
+* [GitHub Repo](https://github.com/DariusO92/Can-of-books-frontend.git)
+Backend:  
+
+* [Deployed Web Address](https://can-of-books-backend2022.herokuapp.com/)
+* [GitHub Repo](https://github.com/gina305/can-of-books-backend.git)
