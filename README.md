@@ -1,9 +1,10 @@
 # Can of Books (Backend)  
 
 **Authors**:
-[Darius O](https://github.com/DariusO92)  
-[Liesl White](https://github.com/LieslW)  
-[Gina N.](https://github.com/gina305)  
+
+* [Darius O](https://github.com/DariusO92)  
+* [Liesl White](https://github.com/LieslW)  
+* [Gina N.](https://github.com/gina305)  
 **Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview  
