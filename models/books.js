@@ -10,10 +10,10 @@ const bookSchema = new Schema({
   title: {type: String, required: true},
   description: {type: String, required: true},
   status: {type: String, required: true},
-
 })
 
-//Define model for schema to sape data <string> <schema>
+//Define model for schema to shape data using the model method <string> <schema>
 const BookModel = mongoose.model('Book', bookSchema);
 
+//export for use
 module.exports = BookModel;
