@@ -2,7 +2,7 @@
 
 require('dotenv').config();
 const mongoose = require('mongoose');
-const Book = require('./model/books.js');
+const Book = require('./models/books.js');
 mongoose.connect(process.env.DB_URL);
 
 
@@ -35,4 +35,6 @@ async function seed() {
   mongoose.disconnect(process.env.DB_URL);
 
 }
+
+// Use 'node seed.js' to test this seed function
 seed();
