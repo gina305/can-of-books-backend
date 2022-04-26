@@ -91,6 +91,7 @@ Frontend:
 
 * [Deployed Web Address](https://can-of-books301.netlify.app/)  
 * [GitHub Repo](https://github.com/DariusO92/Can-of-books-frontend.git)
+
 Backend:  
 
 * [Deployed Web Address](https://can-of-books-backend2022.herokuapp.com/)
