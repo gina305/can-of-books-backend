@@ -41,7 +41,7 @@ app.get('/', (request, response) => {
 app.post('/book', postBooks);
 app.get('/book', getBooks);
 app.delete('/book/:id', deleteBooks);
-// app.put('/book/:id', updateBooks);
+app.put('/book/:id', updateBooks);
 //^Delete book by by it's id
 
 //Send a response to the request
@@ -96,6 +96,20 @@ async function deleteBooks(request, response) {
 }
 
 //update/PUT function goes here (reference line 46)
+async function updateBooks(request, response, next) {
+  //Extract passed parameter from the client's request
+  try {
+    let id = request.params.id;
+    console.log(id);
+    
+    //Find the book by id and overwrite the existing field
+    let updatedBook = await Book.findByIdAndUpdate(id, request.body, {new: true, overwrite: true});
+
+    response.status(200).send(updatedBook);
+  } catch (error) {
+    next(err); 
+  }
+}
 
 
 
