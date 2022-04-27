@@ -9,7 +9,7 @@
 
 ## Overview  
 
-Books are life-changing. They have the power to enlighten, educate, entertain, heal, and help us grow. Build out this code base to create an web app to track what books have impacted you, and what's recommended to read next.
+Welcome to Can of Books! Essentially, users will be able to add, update, and delete their favorite books on their book shelf. Whatever books they will be displayed on a carousel for easy viewing on their collection.  
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
@@ -50,7 +50,6 @@ How often will you take breaks?
 What is your plan if you start to fall behind?
 
 * Get help from TA/instructor/peers when we need it  
-
 
 ### Cooperative  
 
@@ -97,3 +96,39 @@ Backend:
 
 * [Deployed Web Address](https://can-of-books-backend2022.herokuapp.com/)
 * [GitHub Repo](https://github.com/gina305/can-of-books-backend.git)
+
+___
+
+Name of feature: Mongo DB setup and book initializing
+
+Estimate of time needed to complete: 5 hours
+
+Start time: 1:30pm
+
+Finish time: 7pm
+
+Actual time needed to complete: 5 1/2 hours
+
+___
+
+Name of feature: Add and delete functionality
+
+Estimate of time needed to complete: 4 hours
+
+Start time: 1:30pm
+
+Finish time: 5:17
+
+Actual time needed to complete: 3 hours 30 mintues
+
+___
+
+Name of feature: Update feature
+
+Estimate of time needed to complete: 3 hours
+
+Start time: 2:00pm
+
+Finish time: TBD
+
+Actual time needed to complete: TBD  

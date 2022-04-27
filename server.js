@@ -3,13 +3,13 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
+
 //bring in a schema to interact with model
 const Book = require('./models/books.js');
 const req = require('express/lib/request');
+
 //bring in mongoose
 const mongoose = require('mongoose');
-// const { next} = require('process');
-//const { findByIdAndDelete } = require('./models/books.js');
 mongoose.connect(process.env.DB_URL);
 
 
@@ -33,20 +33,21 @@ const PORT = process.env.PORT || 3002;
 
 
 //Add route(s)
-app.get('/test', (request, response) => {
-
-  response.send('test request received')
-
+app.get('/', (request, response) => {
+  response.send('Welcome!')
 })
 
-
 //Add book route(s)
-app.get('/book', async (request, response) => {
+app.post('/book', postBooks);
+app.get('/book', getBooks);
+app.delete('/book/:id', deleteBooks);
+// app.put('/book/:id', updateBooks);
+//^Delete book by by it's id
 
-  //Send a response to the request
-  // response.send('book route is working');
+//Send a response to the request
 
-  //try {
+async function getBooks(request, response) {
+  try {
     const queryObj = {};
 
     //Find the title using the user's request
@@ -61,57 +62,41 @@ app.get('/book', async (request, response) => {
 
     //Send a response to the user request
     response.send(books);
-
-
- // } catch (error) {
- //   console.log(error);
-  //}
-
-})
-app.post('/book', postBooks);
-
-//Delete book by by it's id
-app.delete('/book/:id', deleteBooks);
-
-app.listen(PORT, () => console.log(`listening on ${PORT}`));
-
-
-async function postBooks(request, response){
- console.log(request.body); 
-
- try {
-   
-    let createdBook = await Book.create(request.body);
-
-    //Test this with thunder client can 'GET' data from /books endpoint
-    response.status(200).send(createdBook)
-    
   } catch (error) {
-    next(err);
-    
+    console.log(error);
   }
-
 }
 
-//Function below deletes a book by ID   
+async function postBooks(request, response) {
+  console.log(request.body);
+  try {
+    let createdBook = await Book.create(request.body);
+    //Test this with thunder client can 'GET' data from /books endpoint
+    response.status(200).send(createdBook)
+  } catch (error) {
+    next(err); 
+  }
+}
+
+//Function below deletes a book by ID (line 98)   
 // To delete, send a HTTP delete request to http://localhost:3001/book/<id>
-async function deleteBooks(request, response){
-
-
-    //Extract passed parameter from the client's request
-    
+async function deleteBooks(request, response) {
+  //Extract passed parameter from the client's request
   try {
     let id = request.params.id;
     console.log(id);
-
+    
     //You can test this with thunder client to simulate a 'GET' request to retireve data from /books endpoint
-
-    //Delete the book by id
+    
     await Book.findByIdAndDelete(id);
     response.status(200).send(`Book ${id} was deleted`);
   } catch (error) {
-    next(err);
-    
+    next(err); 
   }
-
 }
+
+//update/PUT function goes here (reference line 46)
+
+
+
+app.listen(PORT, () => console.log(`listening on ${PORT}`));
