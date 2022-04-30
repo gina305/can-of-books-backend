@@ -132,3 +132,15 @@ Start time: 2:00pm
 Finish time: 4:45pm
 
 Actual time needed to complete: 2 h 45 m  
+
+___
+
+Name of feature: Auth0
+
+Estimate of time needed to complete: 4 hours
+
+Start time: 2:15pm
+
+Finish time: TBD
+
+Actual time needed to complete: TBD
