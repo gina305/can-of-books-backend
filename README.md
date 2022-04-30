@@ -141,6 +141,6 @@ Estimate of time needed to complete: 4 hours
 
 Start time: 2:15pm
 
-Finish time: TBD
+Finish time: 5:35pm
 
-Actual time needed to complete: TBD
+Actual time needed to complete: 3 hours
